@@ -1,0 +1,42 @@
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{js,jsx,ts,tsx}]
+charset = utf-8
+
+# 4 space indentation
+[*.js, *.jsx, *.ts, *.tsx]
+indent_style = space
+indent_size = 2
+
+# Use single quotes instead of double quotes
+[*.json]
+quote_type = single
+
+# For JSON files, prefer double quotes for keys
+[*.json]
+quote_props = double
+
+# For JSON files, add trailing commas
+[*.json]
+trailing_comma = all
+
+# For JSON files, use spaces for indentation
+[*.json]
+indent_style = space
+indent_size = 2
+
+# For JSON files, use lf line endings
+[*.json]
+end_of_line = lf
+
+# For JSON files, insert a final newline
+[*.json]
+insert_final_newline = true
